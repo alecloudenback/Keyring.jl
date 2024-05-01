@@ -22,3 +22,6 @@ c.secret # "my_secret"
 
 - Windows
 
+## Inspired by
+
+[keyring (Python)](https://github.com/jaraco/keyring)
