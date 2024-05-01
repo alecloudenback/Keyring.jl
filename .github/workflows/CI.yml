@@ -67,6 +67,6 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Documenter: DocMeta, doctest
-          using Keychain
-          DocMeta.setdocmeta!(Keychain, :DocTestSetup, :(using Keychain); recursive=true)
-          doctest(Keychain)
+          using Keyring
+          DocMeta.setdocmeta!(Keyring, :DocTestSetup, :(using Keyring); recursive=true)
+          doctest(Keyring)

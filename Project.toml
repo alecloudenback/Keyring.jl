@@ -1,4 +1,4 @@
-name = "Keychain"
+name = "Keyring"
 uuid = "50ea2a6d-d012-47d2-ba52-47aa164fcf80"
 authors = ["Alec Loudenback <alecloudenback@gmail.com> and contributors"]
 version = "1.0.0-DEV"

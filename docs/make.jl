@@ -1,14 +1,14 @@
-using Keychain
+using Keyring
 using Documenter
 
-DocMeta.setdocmeta!(Keychain, :DocTestSetup, :(using Keychain); recursive=true)
+DocMeta.setdocmeta!(Keyring, :DocTestSetup, :(using Keyring); recursive=true)
 
 makedocs(;
-    modules=[Keychain],
+    modules=[Keyring],
     authors="Alec Loudenback <alecloudenback@gmail.com> and contributors",
-    sitename="Keychain.jl",
+    sitename="Keyring.jl",
     format=Documenter.HTML(;
-        canonical="https://alecloudenback.github.io/Keychain.jl",
+        canonical="https://alecloudenback.github.io/Keyring.jl",
         edit_link="master",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/alecloudenback/Keychain.jl",
+    repo="github.com/alecloudenback/Keyring.jl",
     devbranch="master",
 )

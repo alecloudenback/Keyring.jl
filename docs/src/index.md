@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = Keychain
+CurrentModule = Keyring
 ```
 
-# Keychain
+# Keyring
 
-Documentation for [Keychain](https://github.com/alecloudenback/Keychain.jl).
+Documentation for [Keyring](https://github.com/alecloudenback/Keyring.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [Keychain]
+Modules = [Keyring]
 ```
