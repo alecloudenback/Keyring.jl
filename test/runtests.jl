@@ -11,6 +11,11 @@ using Test
     @test c.username == "un"
     @test c.secret == "pw"
 
+    # non-existent credential
+
+    c = get_credential("non-existent")
+    # @test c == Some(nothing)
+
 
 end
 
