@@ -4,6 +4,8 @@
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://alecloudenback.github.io/Keyring.jl/dev/)
 [![Build Status](https://github.com/alecloudenback/Keyring.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/alecloudenback/Keyring.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 
+Provides access to system keystores.
+
 ## Quickstart
 
 ```julia
