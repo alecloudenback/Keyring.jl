@@ -7,6 +7,13 @@ import ..get_credential, ..set_credential
 const CRED_TYPE_GENERIC = 0x01
 const CRED_PERSIST_LOCAL_MACHINE = 0x02
 
+"""
+    WindowsCredentialManager <: AbstractCredentialStore
+
+This interacts with the Windows Credential Manager via the `advapi32.dll` (Advanced Windows 32 Base API) library available on Windows systems.
+
+
+"""
 struct WindowsCredentialManager <: AbstractCredentialStore end
 
 struct WindowsCredentialManagerCredential <: AbstractCredential
