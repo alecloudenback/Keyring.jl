@@ -19,5 +19,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/alecloudenback/Keyring.jl",
-    devbranch="master",
+    devbranch="main",
 )
