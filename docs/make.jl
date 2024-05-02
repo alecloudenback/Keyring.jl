@@ -9,7 +9,7 @@ makedocs(;
     sitename="Keyring.jl",
     format=Documenter.HTML(;
         canonical="https://alecloudenback.github.io/Keyring.jl",
-        edit_link="master",
+        edit_link="main",
         assets=String[],
     ),
     pages=[
