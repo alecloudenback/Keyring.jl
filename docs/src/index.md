@@ -10,5 +10,5 @@ Documentation for [Keyring](https://github.com/alecloudenback/Keyring.jl).
 ```
 
 ```@autodocs
-Modules = [Keyring,Keyring.Windows]
+Modules = [Keyring,Keyring.Windows,Keyring.Mac]
 ```
