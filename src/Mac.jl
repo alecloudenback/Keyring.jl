@@ -4,6 +4,11 @@ import ..AbstractCredentialStore
 import ..Credential
 import ..get_credential, ..set_credential
 
+"""
+    MacCredentialManager <: AbstractCredentialStore
+
+This interacts with the Mac Keyvhain via the `security` command line utility available on Mac systems.
+"""
 struct MacCredentialManager <: AbstractCredentialStore end
 
 function set_credential(store::MacCredentialManager, target::String, username::String, secret::String)
@@ -32,7 +37,7 @@ function get_credential(store::MacCredentialManager, target::String)
     username_output = try
         read(pipeline(username_cmd, stderr = devnull), String)
     catch e
-        return nothing
+        return Some(nothing)
     end
 
     # Extract username from output

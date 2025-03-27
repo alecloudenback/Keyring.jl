@@ -14,7 +14,7 @@ using Test
     # non-existent credential
 
     c = get_credential("non-existent")
-    @test isnothing(c)
+    @test c == Some(nothing)
 
 
 end
